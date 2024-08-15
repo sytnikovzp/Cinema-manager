@@ -1,0 +1,22 @@
+{
+  "name": "json-server",
+  "version": "2.0.0",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fake": "node ./index.js",
+    "nodemon": "nodemon ./index.js"
+  },
+  "keywords": [],
+  "description": "> TODO: description",
+  "author": "Alexandr Sytnikov <sytnikov.zp@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "chokidar": "^3.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "https": "^1.0.0",
+    "json-server": "^0.17.0"
+  }
+}
