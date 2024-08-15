@@ -123,7 +123,7 @@ Sequelize is used for database interaction, with models, migrations, and seeders
 
 - **Cors**: To handle cross-domain requests.
 - **Http-errors**: To handle and display errors.
-- **Sequelize & Sequelize-cli**: For interacting with the database, along with the **pg** and **pg-hstore** drivers.
+- **Sequelize & Sequelize-cli**: For interacting with the database, with the **pg** and **pg-hstore** drivers.
 - **Yup**: For validation.
 - **Moment**: For date handling.
 - **Dotenv**: For environment variable management.
@@ -204,7 +204,7 @@ lerna run fake
 CTRL + C
 ```
 
-## Links
+## Links to original projects:
 
 - [CINEMA MANAGER client (with Vite)](https://github.com/sytnikovzp/Cinema-manager-client)
 
