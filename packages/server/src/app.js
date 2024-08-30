@@ -23,8 +23,6 @@ app.use(
 
 app.use(express.json());
 
-app.use(express.static(path.resolve('public')));
-
 app.use(getTime, showTime);
 
 // ============================
