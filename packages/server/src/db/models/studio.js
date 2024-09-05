@@ -1,16 +1,11 @@
-'use strict';
 const { Model, Sequelize } = require('sequelize');
 module.exports = (sequelize, DataTypes) => {
   class Studio extends Model {
-    /**
-     * Helper method for defining associations.
-     * This method is not a part of Sequelize lifecycle.
-     * The `models/index` file will call this method automatically.
-     */
     static associate(models) {
-      // define association here
-      Studio.belongsTo(models.Location, { foreignKey: 'locationId' });
-      
+      Studio.belongsTo(models.Location, {
+        foreignKey: 'locationId',
+      });
+
       Studio.belongsToMany(models.Movie, {
         through: models.MovieStudio,
         foreignKey: 'studio_id',
