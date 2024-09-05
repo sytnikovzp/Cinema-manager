@@ -170,6 +170,22 @@ DB_NAME=cinema_manager
 DB_HOST=localhost
 ```
 
+<details>
+  <summary><strong>Or run THIS script, click to expand:</strong></summary>
+
+```bash
+cat <<EOL > packages/server/.env
+PORT=5000
+DB_PORT=5432
+DB_USER=postgres
+DB_PASS=root
+DB_NAME=cinema_manager
+DB_HOST=localhost
+EOL
+```
+</details>
+
+
 ## Database Initialization
 
 1. Creating new Database:
