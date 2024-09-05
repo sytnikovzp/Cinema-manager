@@ -30,6 +30,7 @@
     "yup": "^1.4.0"
   },
   "devDependencies": {
+    "morgan": "^1.10.0",
     "sequelize-cli": "^6.6.2"
   }
 }
